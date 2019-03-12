@@ -1,0 +1,3 @@
+Mancila,Doru,Bucuresti,CTI,21,ASE
+Balica,Adrian,Galati,CTI,21,ASE
+Smarandache,Mihnea,Bucuresti,CTI,21,FMI

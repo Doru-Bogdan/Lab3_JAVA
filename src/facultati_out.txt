@@ -1,0 +1,3 @@
+ASE, oras Bucuresti, nr studenti 2
+FMI, oras Bucuresti, nr studenti 1
+Facultatea de automatica, oras Bucuresti, nr studenti 0

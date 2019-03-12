@@ -1,0 +1,45 @@
+/*
+* in care avem
+* nume
+* prenume
+* varsta
+* id long => autogenerat in mod unic cand se creaza o instanta a clasei
+* constructor pentru toate campurile => public/protected
+* suprascris toString => id, nume, prenume
+
+
+*** creati clasa Student ce mosteneste din Persoana
+*  are in plus urmatoarele campuri
+*   - specializare
+*    -facultate
+*    -oras
+*    -suprascrieti toString sa afiseze faptul ca e student+ ce se afisa pt Persoana
+
+
+***    Clasa Facultate
+*    -nume //private
+*    -oras  //private
+*    -numarStudenti; //private
+*    -constructor(nume, oras).//numarStudenti = 0; => apelati pe cel cu (nume, oras, numarStudenti)->this(nume, oras, nr);
+*    -constructor(nume, oras, numarStudenti)
+*    =>in Student campul facultate trebuie sa fie un obiect protected de tipul Facultate
+*    =>suprascrieti toString sa returnezele numele facultatii
+*    ->creati getter si setter pentru numarStudenti
+*    ->getter pentru nume, oras
+
+
+***    facultati.txt => pe fiecare linie aveti 2 valori : un sir de cuvinte ce reprezinta numele facultatii si un singur cuvant   ce reprezinta orasul
+*    cititi inttr-un vector, arraylist  de tipul Facultate toate facultatile din fisier
+*    daca o facultate se repeta, sa fie citita o singura data
+*    o facultate e unica prin numele si orasul ei
+
+
+***    studenti.txt => pe fiecare linie avem separat prin , urmatoarele : nume, prenume, oras, specializare, varsta, nume-facultate
+*    sa se retina intr-un arraylist studentii si apoi sa se afiseze cei pentru care coincide orasul lor cu cel al facultatii
+
+**    cand se adauga  o facultate la un student nr de studenti din facultate ++
+*    sa se afiseze nr de studenti din fiecare facultate
+*    sa se scrie facultatile ordonate dupa nr de studenti in fisierul facultati.out
+
+
+** */
